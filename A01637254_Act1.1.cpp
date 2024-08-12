@@ -1,4 +1,4 @@
-// make an algorithm with merge sort with the following instructions
+// Merge sort
 // The program receives an integer N, followed by N real values ​​(double, one on each line) through standard input.
 // The output of the program is a list of the N values ​​ordered from Highest to Lowest
 

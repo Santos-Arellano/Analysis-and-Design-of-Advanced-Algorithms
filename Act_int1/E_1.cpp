@@ -25,7 +25,7 @@ int main() {
     vector<string> transmissions = {"transmission1.txt", "transmission2.txt"};
     vector<string> mcodes = {"mcode1.txt", "mcode2.txt", "mcode3.txt"};
 
-    // Part 1
+    // Part 1 - Check if mcode is contained in transmission and print the position 
     for (const auto& transmission : transmissions) {
         string trans_content = readFile(transmission);
         for (const auto& mcode : mcodes) {

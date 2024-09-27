@@ -50,3 +50,5 @@ pair<int, int> findLongestPalindrome(const string &combined) {
     // Retornar las posiciones (iniciando en 1)
     return {longestBegin + 1, longestEnd + 1}; 
 }
+
+

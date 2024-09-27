@@ -1,3 +1,7 @@
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <vector>
 #include "Comun.h"
 #include "Palindromo.h"
 
@@ -6,10 +10,8 @@ using namespace std;
 string readFile(const string& filename) {
     ifstream file(filename);
     string content((istreambuf_iterator<char>(file)), istreambuf_iterator<char>());
-    file.close();
     return content;
 }
-
 bool isContained(const string& transmission, const string& mcode, int& position) {
     size_t found = transmission.find(mcode);
     if (found != string::npos) {
